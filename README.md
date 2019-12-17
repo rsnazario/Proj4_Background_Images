@@ -3,13 +3,13 @@
 The goal of this project is to use background-images and gradients to clone this page from archive of Apple: https://web.archive.org/web/20140301004610/http://www.apple.com/ .
 
 
-![alt text](https://cdn.mathpix.com/snip/images/elwx3YCNCNXHFrNwvmc1jU7lBtK4AaWPyAdQM7pTx-s.original.fullsize.png)
+![alt text](https://cdn.mathpix.com/snip/images/aZtnLmoDiEFQ3WGHgAm5mwRzK9AYmRQiqI00HQTD0-Q.original.fullsize.png)
 
 # Built with: 
 - HTML5 & CSS3  
 
 # Live Link:
-[Go to Demo Link](https://raw.githack.com/rsnazario/Proj4_Background_Images/feature-background-image/index.html)
+[Go to Demo Link](https://rawcdn.githack.com/rsnazario/Proj4_Background_Images/7afab0d2f09f5188e3083b91b6e4214047aa4bc4/index.html)
 
 # Authors
 :bust_in_silhouette: Rafael Nazario
