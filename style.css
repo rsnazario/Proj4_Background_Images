@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.main-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 880px;
+  margin: 0 auto;
+}
+
+.adv-containers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin: 2px auto 0;
+  height: 200px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(77, 153, 240);
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.adv-containers > a {
+  width: 25%;
+}
+
+footer {
+  width: 51%;
+  margin: 20px auto;
+}
+
+footer li {
+  display: inline-block;
+  border-right: 1px solid rgb(145, 136, 136);
+  margin-right: 3px;
+  padding-right: 3px;
+  font-size: 0.65em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+article {
+  float: left;
+}
+
+footer h6 {
+  font-size: 0.65em;
+  font-weight: 300;
+  color: #666;
+  line-height: 2.5;
+}
+
+footer ul {
+  float: right;
+  margin-top: -5px;
+}
+
+nav {
+  width: 68%;
+  border-radius: 5px;
+  position: absolute;
+  top: 9.5%;
+  left: 16%;
+  z-index: 10;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-right: 1px solid black;
+  width: calc(100% / 8);
+  height: 35px;
+  font-size: 0.8em;
+}
+
+footer li:last-child {
+  border: none;
+}
+
+.search-box {
+  position: relative;
+  width: 160px;
+}
+
+input {
+  background-color: rgb(126, 118, 118);
+  height: 25px;
+  width: 130px;
+  padding: 0 5px 0 25px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.fa-search {
+  position: absolute;
+  left: 10px;
+  z-index: 10;
+}
+
+nav li:not(:nth-child(9)):hover {
+  background-color: rgb(61, 61, 61);
+  border-radius: 5px;
+}
+
+.huge-container {
+  background: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 50% 100% no-repeat;
+  height: 678px;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.what {
+  margin: 0 auto 6px;
+  background: url('https://web.archive.org/web/20140301004331im_/http://images.apple.com/home/images/your_verse_title_medium.png') top no-repeat;
+  background-position: top;
+  background-size: 125% 110%;
+  width: 700px;
+  height: 90px;
+  text-align: center;
+}
+
+.watch {
+  margin: 20px auto 0;
+  background: transparent url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png') top no-repeat;
+  width: 600px;
+  height: 32px;
+  text-align: center;
+}
+
+.watch:hover {
+  background-position: bottom;
+}
+
+.adv {
+  height: 200px;
+}
+
+.cell5s,
+.cell5c,
+.mac {
+  margin-right: 2px;
+}
+
+.cell5s {
+  background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg') no-repeat;
+}
+
+.cell5c {
+  background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg') no-repeat;
+}
+
+.mac {
+  background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg') no-repeat;
+}
+
+.sust {
+  background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg') no-repeat;
+}
